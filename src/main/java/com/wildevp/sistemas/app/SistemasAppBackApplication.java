@@ -21,7 +21,7 @@ public class SistemasAppBackApplication implements CommandLineRunner {
     }
     @Override
     public void run(String[] args)throws Exception {
-        Usuario usuario = new Usuario();
+      /*  Usuario usuario = new Usuario();
         usuario.setNombre("Wilmar");
         usuario.setApellido("Garcia");
         usuario.setUsername("wildevp");
@@ -41,6 +41,6 @@ public class SistemasAppBackApplication implements CommandLineRunner {
         rolUsuarios.add(usuarioRol);
 
         Usuario usuarioGuardado = service.guardarUsuario(usuario, rolUsuarios);
-        System.out.println(usuarioGuardado.getUsername());
+        System.out.println(usuarioGuardado.getUsername());*/
     }
 }
